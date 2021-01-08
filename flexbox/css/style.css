@@ -21,3 +21,12 @@ li{
     margin: 0.5em;
     padding: 0.5em;
 }
+.flex2{
+    border: 2px solid blue;
+    /*Puede ser cualquier numero*/
+    order: 2;
+    /*Flex => grow - shrink - basis*/
+    /*NO usar width con los elementos que tenga flex (children), */
+    flex: 2 1 25%;
+    /*Grown significa que se exapande a los lados dos veces mas rapidos que los demas elementos */
+}
