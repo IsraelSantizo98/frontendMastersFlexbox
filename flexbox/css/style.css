@@ -11,6 +11,10 @@ ul{
     /* flex-wrap: wrap; */
     /*Short hand*/
     flex-flow: row wrap;
+    /*Para mover el contenido a los lados*/
+    justify-content: center;
+    height: 400px;
+    align-items: flex-start;
 }
 li{
     border: 1px solid red;
